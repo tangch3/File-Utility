@@ -1,10 +1,10 @@
-import { Button } from "./components/Button"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { FileTransfer } from './components/FileTransfer'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App(): JSX.Element {
   return (
     <>
-      <Button></Button>
+      <FileTransfer></FileTransfer>
     </>
   )
 }
